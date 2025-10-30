@@ -58,8 +58,6 @@ const productos = [
     { nombre: "Espumador De Leche Y Café", archivo: "espum.webp", precio: 199, marca: "Gen", descripcion: "Espumador De Leche Y Café Batidores Electricos Color Blanco", ubicaciones: ["Acayucan"] },
     { nombre: "Auriculares inalámbricos", archivo: "audros.webp", precio: 499, marca: "Gen", descripcion: "Auriculares inalámbricos E7S con Bluetooth 5,0, cascos de sonido HIFI sin pérdidas, Mini auriculares deportivos TWS para teléfonos inteligentes", ubicaciones: ["Acayucan"] },
     { nombre: "Auriculares inalámbricos", archivo: "audsen.jpg", precio: 399, marca: "Gen", descripcion: "Auriculares inalámbricos con Bluetooth sonido HIFI sin pérdidas", ubicaciones: ["Acayucan"] },
-
-
     { nombre: "Titanic Lego", archivo: "titanicleg.webp", precio: 699, marca: "Services Gen", descripcion: "Modelo de barco Titanic en miniatura, Armalo tu mismo!.", ubicaciones: ["Acayucan"] },
 ];
 
