@@ -4,10 +4,10 @@ console.log("✅ Script cargado correctamente");
 const productos = [
     { nombre: "Bocina Inteligente Alexa", archivo: "alexaazul.jpg", precio: 2899, marca: "Amazon", descripcion: "Bocina inteligente con asistente Alexa y conexión WiFi.", disponible: true },
     { nombre: "Bocina Inteligente Alexa", archivo: "alexawhi.webp", precio: 2599, marca: "Amazon", descripcion: "Versión blanca de la bocina inteligente Alexa.", disponible: true },
-    { nombre: "Audífonos Inalámbricos Bluetooth", archivo: "audifazulxia.webp", precio: 789, marca: "Xiaomi", descripcion: "Audífonos inalámbricos con bluetooth 5.0 y cancelación de ruido.", disponible: true },
+    { nombre: "Audífonos Inalámbricos Bluetooth", archivo: "audifazulxia.webp", precio: 799, marca: "Xiaomi", descripcion: "Audífonos inalámbricos con bluetooth 5.0 y cancelación de ruido", disponible: false },
     { nombre: "Audífonos Inalámbricos Bluetooth", archivo: "audifelect.webp", precio: 499, marca: "Audio Gen", descripcion: "Audífonos básicos con buena calidad de sonido.", disponible: true },
-    { nombre: "Audífonos Inalambricos Bluetooth", archivo: "audlen.webp", precio: 789, marca: "Lenovo", descripcion: "Audífonos cómodos con buena duración de batería.", disponible: true },
-    { nombre: "Avión y Carro", archivo: "avicar.webp", precio: 599, marca: "Services Gen", descripcion: "Set de avión y carro para niños, ideal para regalar.", disponible: true },
+    { nombre: "Audífonos Inalambricos Bluetooth", archivo: "audlen.webp", precio: 799, marca: "Lenovo", descripcion: "Audífonos cómodos con buena duración de batería.", disponible: true },
+    { nombre: "Avión y Carro Lego", archivo: "avicar.webp", precio: 599, marca: "Services Gen", descripcion: "Set de avión y carro para niños, armalo tu mismo! Diviertete Aprendiendo!.", disponible: true },
     { nombre: "Bocina De Colores", archivo: "bocinacol.webp", precio: 699, marca: "Audio Gen", descripcion: "Bocina portátil con luces LED de colores.", disponible: true },
     { nombre: "Cable Ethernet 15M", archivo: "cableteth.webp", precio: 499, marca: "Shawly", descripcion: "Cable de red Ethernet de 15 metros de longitud.", disponible: true },
     { nombre: "Cámara De Seguridad HD", archivo: "camarapq.webp", precio: 6999, marca: "Shawly", descripcion: "Cámara de seguridad HD para vigilancia de interiores y exteriores.", disponible: true },
@@ -17,16 +17,16 @@ const productos = [
     { nombre: "Adaptador Europeo", archivo: "enchufEUR.webp", precio: 149, marca: "Moda Gen", descripcion: "Adaptador de enchufe para tomas europeas.", disponible: true },
     { nombre: "Impresora De Código De Barras", archivo: "imprcod.webp", precio: 2599, marca: "Holyhah", descripcion: "Impresora Térmica De Recibos Pos De 80 Mm.", disponible: true },
     { nombre: "Tarjeta DDR 1TB", archivo: "kingst.webp", precio: 3499, marca: "Kingston", descripcion: "Memoria RAM DDR de 1TB de alta velocidad.", disponible: true },
-    { nombre: "Lámpara Inteligente Diseño G", archivo: "lampar.webp", precio: 599, marca: "Services Gen", descripcion: "Lámpara con control por app y colores RGB.", disponible: true },
-    { nombre: "Laptop Gamer HP Victus 15.6", archivo: "lapamdryzen.webp", precio: 24999, marca: "HP", descripcion: "Laptop gamer con procesador Ryzen y gráficos potentes.", disponible: true },
+    { nombre: "Cargador y Lámpara Inteligente Diseño G", archivo: "lampar.webp", precio: 599, marca: "Services Gen", descripcion: "Lámpara con control por app y colores RGB y ademas es Cargador para Iphone.", disponible: true },
+    { nombre: "Laptop Gamer Victus 15.6", archivo: "lapamdryzen.webp", precio: 24999, marca: "HP", descripcion: "Laptop Gamer Hp Victus 15.6 Ryzen 7 7445hs 16gb Ram 512 Ssd Nvidia Geforce Rtx 4050 6 Gb.", disponible: true },
     { nombre: "Lector de Código", archivo: "letcod.webp", precio: 999, marca: "Shawty", descripcion: "Lector de códigos de barras rápido y confiable.", disponible: true },
     { nombre: "Lector de Código De Escritorio", archivo: "lectcodesc.webp", precio: 1899, marca: "Shawty", descripcion: "Lector De Código De Barras Inalámbrico con Mini Receptor USB", disponible: true },
     { nombre: "Lector de Código", archivo: "letcod2.webp", precio: 1499, marca: "Lozayi", descripcion: "Escáner de códigos de barras inalambrico 1D/2D", disponible: true },
-    { nombre: "Legos", archivo: "legosc.webp", precio: 599, marca: "Lego", descripcion: "Set de Legos para construcción creativa.", disponible: true },
+    { nombre: "Legos Varios", archivo: "legosc.webp", precio: 599, marca: "Lego", descripcion: "Set de 300Pz Legos para construcción creativa.", disponible: true },
     { nombre: "Lentes Inteligentes HD", archivo: "lentesint.webp", precio: 5499, marca: "Smart", descripcion: "Lentes inteligentes con cámara HD integrada.", disponible: true },
     { nombre: "Monitor Portátil 15.6", archivo: "mon15.webp", precio: 2999, marca: "GAMER", descripcion: "Monitor portátil Full HD de 15.6 pulgadas.", disponible: true },
     { nombre: "Monitor Gamer con pantalla de 21.5/", archivo: "mon21.5.webp", precio: 6999, marca: "Xiaomi", descripcion: "Panel LCD Fast IPS sRGB del 99 % HDR10", disponible: true },
-    { nombre: "Monitor Gamer 27/", archivo: "monitorxiao27.webp", precio: 6999, marca: "Xiaomi", descripcion: "Monitor Gamer G27i 27 1920 X 1080 Panel LCD ", disponible: true },
+    { nombre: "Monitor Gamer G27i/", archivo: "monitorxiao27.webp", precio: 6999, marca: "Xiaomi", descripcion: "Monitor Gamer G27i 27 1920 X 1080 Panel LCD ", disponible: true },
     { nombre: "Monitor Gamer Curvo 24.5\"", archivo: "montisams24.webp", precio: 6999, marca: "GAMER", descripcion: "Monitor curvo gamer con diseño ergonómico.", disponible: true },
     { nombre: "Mouse Inalámbrico", archivo: "mousein.webp", precio: 499, marca: "GAMER", descripcion: "Mouse inalámbrico ergonómico.", disponible: true },
     { nombre: "Navaja Multiusos", archivo: "navajmul.webp", precio: 499, marca: "GAMER", descripcion: "Navaja compacta con múltiples funciones.", disponible: true },
@@ -41,12 +41,20 @@ const productos = [
     { nombre: "Impresora Multifuncional", archivo: "impreps.webp", precio: 9999, marca: "Epson", descripcion: "Impresora Epson Ecotank Multifuncional a Color L5590", disponible: true },
     { nombre: "Pc Gaming Computadora", archivo: "pcgam.webp", precio: 20999, marca: "Gamer", descripcion: "Xtreme Pc Gaming Computadora Intel Core I5 12400 16gb Ssd 500gb", disponible: true },
     { nombre: "Turbo Cargador 67w Super Cargador", archivo: "cargrap.webp", precio: 399, marca: "Jeeyee", descripcion: "Turbo Cargador 67w Super Cargador Rápida Con Cable Tipo C", disponible: true },
-    { nombre: "Tarjeta SSD 1TB", archivo: "ssd1tb.webp", precio: 2999, marca: "Kingston", descripcion: "Unidad Ssd Interno Kingston Nv3 1tb M.2 Nvme 4.0 6000mb/s", disponible: true },
     { nombre: "Router Wifi 2.4GHZ 300Mbps", archivo: "routlink.webp", precio: 5999, marca: "Tp-Link", descripcion: "TP-Link TL-WR840N Router Wifi N 2.4GHZ 300Mbps 4 puertos", disponible: true },
     { nombre: "Batería Portátil 38600mah Pd22.5w/3a", archivo: "PWRBAN.webp", precio: 1499, marca: "Hyboer", descripcion: "Batería Portátil Carga Rápida Hyboer Dx203 Con Tipo C/lt Cable, 7 Puertos De Salida Y 2 De Entrada,con Linterna Led", disponible: true },
     { nombre: "Monitor HP P24V G5", archivo: "monhp23.8.webp", precio: 3899, marca: "HP", descripcion: "Monitor HP P24V G5 P24 G5 P24V 23.8 Color Negro", disponible: true },
     { nombre: "Multicontacto De 8 Tomas", archivo: "multi8.webp", precio: 499, marca: "Boparte", descripcion: "Multicontacto De 8 Tomas Con Usb 1.2M", disponible: true },
     { nombre: "Extension Cca Uso Rudo", archivo: "extrud.webp", precio: 1499, marca: "Boparte", descripcion: "Extension Cca Uso Rudo 15 Metros 2x#12", disponible: true },
+    { nombre: "Maquina De afeitar", archivo: "rasb.webp", precio: 499, marca: "Gen", descripcion: "Máquina De Afeitar Profesional Para Afeitar Barba Y Pelo Color Bronze Dragon", disponible: true },
+    { nombre: "Cartera Menbense", archivo: "cartc.webp", precio: 399, marca: "Menbense", descripcion: "Cartera Menbense Style Itali Color Café Liso", disponible: true },
+    { nombre: "Drone Con Dual Camara 4k", archivo: "dronp.webp", precio: 1499, marca: "Gen", descripcion: "Drone Con Dual Camara 4k Kimh  Drone Portatil Plegable Alta Definicion Control Remoto Via App 2.4ghz Giro 360 Con 1 Bateria", disponible: true },
+    { nombre: "Cartera Menbense", archivo: "cargr.webp", precio: 399, marca: "Menbense", descripcion: "Cartera Menbense Style Itali Color Gris Liso", disponible: true },
+    { nombre: "Mochila Deportiva", archivo: "maric.webp", precio: 399, marca: "Oxford", descripcion: "Mochila Hombre Oxford Deportivo Multifuncional Bandolera", disponible: true },
+    { nombre: "Maquina De afeitar", archivo: "rasvia.webp", precio: 399, marca: "Gen", descripcion: "Kit Peluquería Trimmer Máquina Barba Cabello Viaje Color Black", disponible: true },
+    { nombre: "Espumador De Leche Y Café", archivo: "espum.webp", precio: 199, marca: "Gen", descripcion: "Espumador De Leche Y Café Batidores Electricos Color Blanco", disponible: true },
+    { nombre: "Auriculares inalámbricos", archivo: "audros.webp", precio: 499, marca: "Gen", descripcion: "Auriculares inalámbricos E7S con Bluetooth 5,0, cascos de sonido HIFI sin pérdidas, Mini auriculares deportivos TWS para teléfonos inteligentes", disponible: true },
+    { nombre: "Auriculares inalámbricos", archivo: "audsen.jpg", precio: 399, marca: "Gen", descripcion: "Auriculares inalámbricos con Bluetooth sonido HIFI sin pérdidas", disponible: true },
 
 
     { nombre: "Titanic", archivo: "titanicleg.webp", precio: 699, marca: "Services Gen", descripcion: "Modelo de barco Titanic en miniatura.", disponible: true }
@@ -147,3 +155,4 @@ if(typeof particlesJS!=="undefined"){
     }
   });
 }
+
