@@ -49,26 +49,38 @@ const productos = [
   { nombre: "Monitor HP P24V G5", archivo: "monhp23.8.webp", precio: 3899, marca: "HP", descripcion: "Monitor 23.8 negro.", ubicaciones: ["Queretaro"] },
   { nombre: "Multicontacto 8 Tomas", archivo: "multi8.webp", precio: 499, marca: "Boparte", descripcion: "Multicontacto con USB 1.2m.", ubicaciones: ["Queretaro"] },
   { nombre: "Extensión Uso Rudo 15M", archivo: "extrud.webp", precio: 1499, marca: "Boparte", descripcion: "Extensión uso rudo 15m.", ubicaciones: ["Queretaro"] },
-  { nombre: "Máquina De Afeitar Bronze", archivo: "rasb.webp", precio: 499, marca: "Gen", descripcion: "Máquina profesional barba y pelo.", ubicaciones: ["Acayucan"] },
+  { nombre: "Máquina De Afeitar Bronze", archivo: "rasb.webp", precio: 499, marca: "OEM", descripcion: "Máquina profesional barba y pelo.", ubicaciones: ["Acayucan"] },
   { nombre: "Cartera Menbense Café", archivo: "cartc.webp", precio: 399, marca: "Menbense", descripcion: "Cartera estilo italiano café.", ubicaciones: ["Acayucan"] },
-  { nombre: "Drone Con Dual Cámara 4K", archivo: "dronp.webp", precio: 1499, marca: "Gen", descripcion: "Drone plegable HD via app 2.4ghz.", ubicaciones: ["Acayucan"] },
+  { nombre: "Drone Con Dual Cámara 4K", archivo: "dronp.webp", precio: 1499, marca: "OEM", descripcion: "Drone plegable HD via app 2.4ghz.", ubicaciones: ["Acayucan"] },
   { nombre: "Cartera Menbense Gris", archivo: "cargr.webp", precio: 399, marca: "Menbense", descripcion: "Cartera estilo italiano gris.", ubicaciones: ["Acayucan"] },
   { nombre: "Mochila Deportiva Oxford", archivo: "maric.webp", precio: 399, marca: "Oxford", descripcion: "Mochila deportiva multifuncional.", ubicaciones: ["Acayucan"] },
-  { nombre: "Máquina de Afeitar Black", archivo: "rasvia.webp", precio: 399, marca: "Gen", descripcion: "Kit peluquería completo.", ubicaciones: ["Acayucan"] },
+  { nombre: "Máquina de Afeitar Black", archivo: "rasvia.webp", precio: 399, marca: "OEM", descripcion: "Kit peluquería completo.", ubicaciones: ["Acayucan"] },
   { nombre: "Espumador De Café", archivo: "espum.webp", precio: 199, marca: "Gen", descripcion: "Batidor eléctrico para leche.", ubicaciones: ["Acayucan"] },
-  { nombre: "Auriculares inalámbricos E7S", archivo: "audros.webp", precio: 499, marca: "Gen", descripcion: "Mini auriculares deportivos TWS.", ubicaciones: ["Acayucan"] },
-  { nombre: "Auriculares inalámbricos Gen", archivo: "audsen.jpg", precio: 399, marca: "Gen", descripcion: "Bluetooth sonido HIFI.", ubicaciones: ["Acayucan"] },
+  { nombre: "Auriculares inalámbricos E7S", archivo: "audros.webp", precio: 499, marca: "OEM", descripcion: "Mini auriculares deportivos TWS.", ubicaciones: ["Acayucan"] },
+  { nombre: "Auriculares inalámbricos Gen", archivo: "audsen.jpg", precio: 399, marca: "OEM", descripcion: "Bluetooth sonido HIFI.", ubicaciones: ["Acayucan"] },
   { nombre: "Bolso de hombro Mujer Negro", archivo: "bolneg.jpg", precio: 499, marca: "Fashionn", descripcion: "Bolso elegante de cuero PU.", ubicaciones: ["Acayucan"] },
   { nombre: "Alfombrilla RGB Gamer Lujo", archivo: "alf.webp", precio: 999, marca: "Oxford", descripcion: "Alfombrilla LED para juegos.", ubicaciones: ["Queretaro"] },
   { nombre: "Alfombrilla RGB Gamer XL", archivo: "alf1.webp", precio: 999, marca: "Oxford", descripcion: "Alfombrilla LED tamaño ampliado.", ubicaciones: ["Queretaro"] },
   { nombre: "Audífonos Airdots 2", archivo: "xiacaj.webp", precio: 799, marca: "Xiaomi", descripcion: "Auriculares inalámbricos con micrófono.", ubicaciones: ["Queretaro"] },
   { nombre: "Cable para iPhone Lightning", archivo: "cabiph.jpg", precio: 169, marca: "Iphone", descripcion: "Cable USB a Lightning certificado.", ubicaciones: ["Acayucan"] },
-  { nombre: "Juego de urinario para coche", archivo: "urin.jpg", precio: 299, marca: "Gen", descripcion: "Cubo portátil para viaje de emergencia.", ubicaciones: ["Acayucan"] },
+  { nombre: "Juego de urinario para coche", archivo: "urin.jpg", precio: 299, marca: "OEM", descripcion: "Cubo portátil para viaje de emergencia.", ubicaciones: ["Acayucan"] },
   { nombre: "Cargador y cable USB-C", archivo: "cabc.webp", precio: 179, marca: "Oxford", descripcion: "Cargador con cable resistente.", ubicaciones: ["Acayucan"] },
   { nombre: "Cargador rápido USB-C", archivo: "cabipho.webp", precio: 199, marca: "Oxford", descripcion: "Cargador USB-C carga rápida.", ubicaciones: ["Acayucan"] },
   { nombre: "Foco LED RGB con Bocina", archivo: "boci.jpg", precio: 399, marca: "Oxford", descripcion: "Foco RGB con bocina Bluetooth.", ubicaciones: ["Acayucan"] },
   { nombre: "Smartwatch Gold Black", archivo: "relbl.jpg", precio: 2499, marca: "Smart", descripcion: "Reloj inteligente moderno.", ubicaciones: ["Queretaro"] },
-  { nombre: "Titanic Lego Mini", archivo: "titanicleg.webp", precio: 699, marca: "Services Gen", descripcion: "Barco Titanic armable en miniatura.", ubicaciones: ["Acayucan"] }
+  { nombre: "Titanic Lego Mini", archivo: "titanicleg.webp", precio: 699, marca: "OEM", descripcion: "Barco Titanic armable en miniatura.", ubicaciones: ["Acayucan"] }
+
+
+  { nombre: "Bocina con luz para baño", archivo: "bocinaducha.jpg", precio: 699, marca: "Services Gen", descripcion: "Bocina bluetooth con sujeción para baño, resistente al agua y con luces LED.", ubicaciones: ["Acayucan", "Querétaro"] },
+
+  { nombre: "Smartwatch Silver", archivo: "smartwatch.jpg", precio: 2999, marca: "Services Gen", descripcion: "Reloj inteligente estilo premium con monitoreo de salud, notificaciones y correa metálica.", ubicaciones: ["Acayucan", "Querétaro"] },
+
+  { nombre: "Máscara LED Facial", archivo: "mascaraled.jpg", precio: 1499, marca: "Services Gen", descripcion: "Máscara de luz LED para cuidado de la piel con diferentes modos para mejorar rostro y eliminar impurezas.", ubicaciones: ["Acayucan", "Querétaro"] },
+
+  { nombre: "Foco Inteligente WiFi", archivo: "focowifi.jpg", precio: 199, marca: "Services Gen", descripcion: "Foco inteligente controlado vía app, compatible con asistentes de voz y multicolor RGB.", ubicaciones: ["Acayucan", "Querétaro"] },
+
+  { nombre: "Android TV Box MX10", archivo: "tvboxmx10.jpg", precio: 1799, marca: "Services Gen", descripcion: "TV Box Android con 4K, acceso a aplicaciones, conectividad WiFi y almacenamiento ampliable.", ubicaciones: ["Acayucan", "Querétaro"] }
+
 ];
 
 
