@@ -58,7 +58,18 @@ const productos = [
     { nombre: "Espumador De Leche Y Café", archivo: "espum.webp", precio: 199, marca: "Gen", descripcion: "Espumador De Leche Y Café Batidores Electricos Color Blanco", ubicaciones: ["Acayucan"] },
     { nombre: "Auriculares inalámbricos", archivo: "audros.webp", precio: 499, marca: "Gen", descripcion: "Auriculares inalámbricos E7S con Bluetooth 5,0, cascos de sonido HIFI sin pérdidas, Mini auriculares deportivos TWS para teléfonos inteligentes", ubicaciones: ["Acayucan"] },
     { nombre: "Auriculares inalámbricos", archivo: "audsen.jpg", precio: 399, marca: "Gen", descripcion: "Auriculares inalámbricos con Bluetooth sonido HIFI sin pérdidas", ubicaciones: ["Acayucan"] },
+    { nombre: "Bolso de hombro para mujer", archivo: "bolneg.jpg", precio: 499, marca: "Fashionn", descripcion: "Bolso de hombro para mujer, bolsos elegantes de cuero de PU para mujer", ubicaciones: ["Acayucan"] },
+    { nombre: "Alfombrilla de ratón RGB de lujo", archivo: "alf.webp", precio: 999, marca: "Oxford", descripcion: "Alfombrilla de ratón RGB de lujo, alfombrillas LED para juegos, accesorios para PC", ubicaciones: ["Queretaro"] },
+    { nombre: "Alfombrilla de ratón RGB de lujo", archivo: "alf1.webp", precio: 999, marca: "Oxford", descripcion: "Alfombrilla de ratón RGB de lujo, alfombrillas LED para juegos, accesorios para PC", ubicaciones: ["Queretaro"] },
+
+    { nombre: "Audifonos Airdots 2", archivo: "xiacaj.webp", precio: 799, marca: "Xiaomi", descripcion: "Xiaomi Redmi Airdots 2 Auriculares inalámbricos con Bluetooth con micrófono Auriculares Airdots 2", ubicaciones: ["Queretaro"] },
+    { nombre: "Cable para Iphone", archivo: "cabiph.jpg", precio: 169, marca: "Iphone", descripcion: "Cable para iPhone USB a Lightning [MFi Certificado]", ubicaciones: ["Acayucan"] },
+    { nombre: "Juego de urinario para coche", archivo: "urin.jpg", precio: 299, marca: "Gen", descripcion: "Cubo para orina de pie al aire libre, viaje de emergencia, portátil, reutilizable, retráctil, inodoro para acampar, fuga de orina, 1/2", ubicaciones: ["Acayucan"] },
+
     { nombre: "Titanic Lego", archivo: "titanicleg.webp", precio: 699, marca: "Services Gen", descripcion: "Modelo de barco Titanic en miniatura, Armalo tu mismo!.", ubicaciones: ["Acayucan"] },
+
+
+
 ];
 
 
