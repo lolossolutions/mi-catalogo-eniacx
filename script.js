@@ -44,7 +44,7 @@ const productos = [
     { nombre: "Impresora Multifuncional", archivo: "impreps.webp", precio: 9999, marca: "Epson", descripcion: "Impresora Epson Ecotank Multifuncional a Color L5590", ubicaciones: ["Queretaro"] },
     { nombre: "Pc Gaming Computadora", archivo: "pcgam.webp", precio: 20999, marca: "Gamer", descripcion: "Xtreme Pc Gaming Computadora Intel Core I5 12400 16gb Ssd 500gb", ubicaciones: ["Queretaro"] },
     { nombre: "Turbo Cargador 67w Super Cargador", archivo: "cargrap.webp", precio: 399, marca: "Jeeyee", descripcion: "Turbo Cargador 67w Super Cargador Rápida Con Cable Tipo C", ubicaciones: ["Queretaro"] },
-    { nombre: "Router Wifi 2.4GHZ 300Mbps", archivo: "routlink.webp", precio: 5999, marca: "Tp-Link", descripcion: "TP-Link TL-WR840N Router Wifi N 2.4GHZ 300Mbps 4 puertos", ubicaciones: ["Queretaro"] },
+    { nombre: "Router Wifi 2.4GHZ 300Mbps", archivo: "routlink.webp", precio: 3999, marca: "Tp-Link", descripcion: "TP-Link TL-WR840N Router Wifi N 2.4GHZ 300Mbps 4 puertos", ubicaciones: ["Queretaro"] },
     { nombre: "Batería Portátil 38600mah Pd22.5w/3a", archivo: "PWRBAN.webp", precio: 1499, marca: "Hyboer", descripcion: "Batería Portátil Carga Rápida Hyboer Dx203 Con Tipo C/lt Cable, 7 Puertos De Salida Y 2 De Entrada,con Linterna Led", ubicaciones: ["Acayucan"] },
     { nombre: "Monitor HP P24V G5", archivo: "monhp23.8.webp", precio: 3899, marca: "HP", descripcion: "Monitor HP P24V G5 P24 G5 P24V 23.8 Color Negro", ubicaciones: ["Queretaro"] },
     { nombre: "Multicontacto De 8 Tomas", archivo: "multi8.webp", precio: 499, marca: "Boparte", descripcion: "Multicontacto De 8 Tomas Con Usb 1.2M", ubicaciones: ["Queretaro"] },
@@ -61,10 +61,47 @@ const productos = [
     { nombre: "Bolso de hombro para mujer", archivo: "bolneg.jpg", precio: 499, marca: "Fashionn", descripcion: "Bolso de hombro para mujer, bolsos elegantes de cuero de PU para mujer", ubicaciones: ["Acayucan"] },
     { nombre: "Alfombrilla de ratón RGB de lujo", archivo: "alf.webp", precio: 999, marca: "Oxford", descripcion: "Alfombrilla de ratón RGB de lujo, alfombrillas LED para juegos, accesorios para PC", ubicaciones: ["Queretaro"] },
     { nombre: "Alfombrilla de ratón RGB de lujo", archivo: "alf1.webp", precio: 999, marca: "Oxford", descripcion: "Alfombrilla de ratón RGB de lujo, alfombrillas LED para juegos, accesorios para PC", ubicaciones: ["Queretaro"] },
-
     { nombre: "Audifonos Airdots 2", archivo: "xiacaj.webp", precio: 799, marca: "Xiaomi", descripcion: "Xiaomi Redmi Airdots 2 Auriculares inalámbricos con Bluetooth con micrófono Auriculares Airdots 2", ubicaciones: ["Queretaro"] },
     { nombre: "Cable para Iphone", archivo: "cabiph.jpg", precio: 169, marca: "Iphone", descripcion: "Cable para iPhone USB a Lightning [MFi Certificado]", ubicaciones: ["Acayucan"] },
     { nombre: "Juego de urinario para coche", archivo: "urin.jpg", precio: 299, marca: "Gen", descripcion: "Cubo para orina de pie al aire libre, viaje de emergencia, portátil, reutilizable, retráctil, inodoro para acampar, fuga de orina, 1/2", ubicaciones: ["Acayucan"] },
+
+   { 
+  nombre: "Cargador y cable USB-C",
+  archivo: "cabc.webp",
+  precio: 179,
+  marca: "Oxford",
+  descripcion: "Cargador de pared con salida USB-C y cable resistente.",
+  ubicaciones: ["Acayucan"]
+  },
+
+  { 
+  nombre: "Cargador rápido USB-C con cable",
+  archivo: "cabipho.webp", // dime cómo está nombrada tu imagen y lo ajusto
+  precio: 199,
+  marca: "Oxford",
+  descripcion: "Cargador de pared con salida USB-C y cable incluido, compatible con carga rápida para diversos modelos.",
+  ubicaciones: ["Acayucan"]
+},
+
+{ 
+  nombre: "Foco LED RGB con bocina Bluetooth",
+  archivo: "boci.jpg", // cambiar según tu archivo real
+  precio: 399, // Falta precio ✅
+  marca: "Oxford",
+  descripcion: "Foco inteligente con luz RGB y bocina Bluetooth integrada, control remoto incluido.",
+  ubicaciones: ["Acayucan"]
+},
+
+{ 
+  nombre: "Smartwatch Gold Black",
+  archivo: "relbl.jpg", // cambiar según tu archivo real
+  precio: 2499, // Falta precio ✅
+  marca: "Smart",
+  descripcion: "Reloj inteligente estilo moderno, con monitoreo básico de actividad y notificaciones.",
+  ubicaciones: ["Queretaro"]
+},
+
+
 
     { nombre: "Titanic Lego", archivo: "titanicleg.webp", precio: 699, marca: "Services Gen", descripcion: "Modelo de barco Titanic en miniatura, Armalo tu mismo!.", ubicaciones: ["Acayucan"] },
 
