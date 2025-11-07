@@ -135,17 +135,29 @@ if(producto.ubicaciones && producto.ubicaciones.includes(ubicacionUsuario)){
     modalEstado.textContent = "🔴 Agotado en tu ciudad por el momento";
 }
 
-    // Botón carrito → envía mensaje a WhatsApp
-   btnCarrito.onclick = () => {
-  // Mensaje individual para WhatsApp con el producto actual
-  const mensaje = `¡Hola! Quiero este producto: ${producto.nombre} - Precio: $${producto.precio}`;
 
-  // Número de WhatsApp de la tienda con lada internacional
-  const telefono = "5217207298015";
+   // Botón carrito → envía a WhatsApp con mensaje formal
+btnCarrito.onclick = () => {
 
-  // Abrir WhatsApp con el mensaje listo para enviar
-  window.open(`https://wa.me/${telefono}?text=${encodeURIComponent(mensaje)}`, "_blank");
+  const nombreProducto = producto.nombre;
+  const precioProducto = producto.precio;
+  const estadoProducto = modalEstado.textContent.includes("Disponible") 
+                        ? "Disponible ✅" 
+                        : "Agotado ❌";
 
+  const mensaje = 
+    `Hola, quiero información del siguiente producto del catálogo ENIACK TECHNOLOGY SYSTEMS:%0A%0A` +
+    `📌 Producto: ${nombreProducto}%0A` +
+    `💲 Precio: $${precioProducto}%0A` +
+    `📍 Estado: ${estadoProducto}%0A%0A` +
+    `¿Lo tienes disponible para envío? 🚚⚡`;
+
+  const telefono = "527207298015"; // ✅ número correcto +52 México
+
+  const url = `https://wa.me/${telefono}?text=${mensaje}`;
+
+  window.open(url, "_blank");
+  
   // Aquí podrías opcionalmente mantener el carrito visual en la web
   carrito.push(producto); // carrito visual (solo para mostrar en la página)
   console.log(`🛒 Producto agregado al carrito: ${producto.nombre}`);
