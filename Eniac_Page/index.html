@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>ENIACX — Marketplace</title>
+  <meta name="description" content="ENIACX - Tecnología, redes, puntos de venta y más" />
+
+  <!-- ESTILOS PRO -->
+  <link rel="stylesheet" href="./style.css" />
+</head>
+
+<body>
+  <header class="topbar" role="banner">
+    <div class="brand" aria-hidden="false">
+<div class="logo" aria-hidden="true">
+  <img src="fondop.png" alt="Logo ENIACX" class="logo-img">
+</div>
+      <div class="brand-text">
+        <h1>ENIACX</h1>
+        <p>Redes · POS · Apps · Automatización</p>
+      </div>
+    </div>
+
+    <div class="search-wrap" role="search">
+      <div class="search">
+        <input id="searchInput" placeholder="Buscar productos, marcas y más..." aria-label="Buscar productos" />
+        <button id="doSearch" aria-label="Buscar">Buscar</button>
+      </div>
+    </div>
+
+    <div class="actions" role="navigation" aria-label="Acciones">
+      <button class="location-btn" id="locBtn" title="Seleccionar ubicación">📍 <span id="locText">Selecciona ubicación</span></button>
+
+      <button class="signin" id="openLogin" aria-haspopup="dialog" aria-controls="loginModal">Iniciar sesión</button>
+
+      <div class="cart" id="cartBtn" aria-live="polite" title="Ver carrito">
+        🛒 <span class="count" id="cartCount">0</span>
+      </div>
+
+      <button id="themeToggle" class="theme-toggle" title="Cambiar tema" aria-pressed="false">🌗</button>
+    </div>
+  </header>
+
+  <nav class="nav" role="navigation" aria-label="Navegación principal">
+    <ul>
+      <li><a href="#">Departamentos</a></li>
+      <li><a href="#">Catálogo</a></li>
+      <li><a href="#">Buen Fin</a></li>
+      <li><a href="#">Promociones</a></li>
+      <li><a href="#">Ayuda</a></li>
+      <li><a href="#">Ventas a profesionales</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section class="hero" aria-labelledby="heroTitle">
+      <div class="hero-card">
+
+        <div class="hero-left">
+          <span class="eyebrow">Soluciones para empresas</span>
+          <h2 id="heroTitle">Todo lo que necesitas para tu negocio — ENIACX</h2>
+          <p class="hero-sub">Redes, puntos de venta, desarrollo de apps y automatización. Productos verificados, soporte profesional y promociones exclusivas.</p>
+
+          <div class="hero-cta">
+            <button class="btn-cta btn-primary" id="btnCatalog">Ver catálogo</button>
+            <button class="btn-cta btn-ghost" id="btnContact">Contacto profesional</button>
+          </div>
+        </div> 
+
+      
+          </div>
+        </aside>
+
+      </div>
+    </section>
+
+    <section class="cats" aria-label="Categorías">
+      <div class="cat"><strong>Redes</strong><small>Switches, routers</small></div>
+      <div class="cat"><strong>POS</strong><small>Puntos de venta</small></div>
+      <div class="cat"><strong>Apps</strong><small>Desarrollo</small></div>
+      <div class="cat"><strong>Automatización</strong><small>PLC, sensores</small></div>
+      <div class="cat"><strong>Accesorios</strong><small>Cables, memorias</small></div>
+    </section>
+
+    <section class="container">
+      <div class="catalog-head">
+        <h3>Catálogo destacado</h3>
+        <p class="muted" id="resultsInfo">Mostrando los productos destacados</p>
+      </div>
+
+      <div class="catalogo-destacado">
+        <iframe 
+          src="../catalogo/catalogo.html"
+          style="width:100%; height:750px; border:none; border-radius:12px;">
+        </iframe>
+
+        <button class="btn-cta btn-primary" id="btnCatalogoReal" style="margin-top:20px;">
+          Abrir catálogo completo
+        </button>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="foot-grid">
+      <div>
+        <h4>ENIACX</h4>
+        <p class="small">Soluciones tecnológicas para tu negocio. Soporte y garantía.</p>
+      </div>
+      <div>
+        <h4>Atención</h4>
+        <p class="small">Ventas · Soporte · Garantías</p>
+      </div>
+      <div>
+        <h4>Legal</h4>
+        <p class="small">Términos · Privacidad</p>
+      </div>
+    </div>
+
+    <div style="height:14px"></div>
+    <div class="small">© ENIACX 2025 - Todos los derechos reservados</div>
+  </footer>
+
+  <!-- MODAL LOGIN -->
+  <div class="modal" id="loginModal" role="dialog" aria-modal="true" aria-labelledby="loginTitle">
+    <div class="modal-card">
+      <h3 id="loginTitle" class="modal-title">Iniciar sesión</h3>
+      <div class="modal-grid">
+        <label class="muted" for="email">Correo electrónico</label>
+        <input id="email" class="input" type="email" placeholder="tu@correo.com" />
+        <label class="muted" for="password">Contraseña</label>
+        <input id="password" class="input" type="password" placeholder="••••••••" />
+        <div class="modal-actions">
+          <button id="closeLogin" class="btn">Cerrar</button>
+          <button id="doLogin" class="btn primary">Entrar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- TOAST -->
+  <div id="toast" class="toast" role="status" aria-live="polite" aria-atomic="true"></div>
+
+  <!-- WHATSAPP FLOTANTE -->
+  <button class="whatsapp-float" id="waBtn" title="Contacto por WhatsApp">💬 WhatsApp</button>
+
+  <script src="./script.js"></script>
+</body>
+</html>
